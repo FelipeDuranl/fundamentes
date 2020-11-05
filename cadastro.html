@@ -1,0 +1,81 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!------ Include the above in your HEAD tag ---------->
+  </head>
+   <title>Fundamentes login</title>
+<body id="LoginForm">
+<div class="container">
+<div class="login-form">
+<div class="main-div">
+    <div class="panel">
+   <h2>Cadastro de usuário</h2>
+   <p>Preencha seus dados</p>
+   </div>
+    <form id="Cadastro" action = "insere.php" method = "POST">
+
+        <div class="form-group">
+
+
+            <input type="text" name = "nome" class="form-control" id="inputEmail" placeholder="Nome">
+
+        </div>
+
+         <div class="form-group">
+
+
+            <input type="text" name = "login" class="form-control" id="inputEmail" placeholder="Login">
+
+        </div>
+
+         <div class="form-group">
+
+
+            <input type="text" name = "email" class="form-control" id="inputEmail" placeholder="Email ">
+
+        </div>
+        <div class="form-group">
+
+
+            <input type="text" name = "telefone" class="form-control" id="inputEmail" placeholder="Telefone ">
+
+        </div>
+        <div class="form-group">
+
+
+            <input type="text" name = "data_nasc" class="form-control" id="inputEmail" placeholder="Data de nascimento Ex: 1994-11-01">
+
+        </div>
+        <div class="form-group">
+
+
+            <input type="Password" name=" senha" class="form-control" id="inputEmail" placeholder="Senha">
+
+        </div>
+        <div class="wrap-input100 form-group">
+                <select class=" input100 form-control" id="exampleFormControlSelect1" name = "tipo">
+                  <option selected>Deseja fazer cadastro como?</option>
+                  <option value=1>Aluno</option>
+                  <option value=2>Professor</option>
+        </select>
+        <br>
+        <div class="forgot">
+        <a href="login.html">Ja está cadastrado?</a>
+        <a href="index.html">Voltar</a>
+</div>
+        <button type="submit" class="btn btn-primary" href = "inde.html">Cadastrar</button>
+
+    </form>
+    </div>
+<p class="botto-text"> &copy Fundamentes</p>
+</div></div></div>
+
+
+</body>
+</html>
